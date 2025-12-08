@@ -4,5 +4,5 @@ WORKDIR /app
 COPY requirement.txt .
 RUN pip install -r requirement.txt
 COPY . .
-EXPOSE 3000
+EXPOSE 5000
 CMD ["python", "flask_app.py"]
